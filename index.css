@@ -80,6 +80,8 @@ img:hover {
 @media only screen and (max-width: 600px) {
   .tablinks {
     font-family: font-family: 'Inter var', 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica New", Helvetica, sans-serif;
+    font-size: 20px;
+    width: 5px;
   }
 
   #about-me {
