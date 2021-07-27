@@ -31,7 +31,7 @@
 }
 
 img#me {
-  float: left;
+  /*float: left;*/
   width: 15%;
   padding-right: 1rem;
   padding-top: 0.4rem;
@@ -48,7 +48,7 @@ img:hover {
 }
 
 #about-me {
-  float: right;
+  /*float: right;*/
   width: 70%;
   margin-right: 12.5%;
   font-family: cursive;
