@@ -49,12 +49,13 @@ img:hover {
 }
 
 #about-me {
-     width: 55%;
+    width: 65%;
     margin: 0.5rem;
     font-family: 'Inter var', 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica New", Helvetica, sans-serif;
-    font-size: 25px;
+    font-size: 1.2rem;
     text-align: justify;
     margin-top: -3%;
+    font-weight: 200;
 }
 
 .tab-content {
