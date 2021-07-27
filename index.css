@@ -83,3 +83,18 @@ img:hover{
     font-family: cursive;
     width: 90%;
 }
+
+@media only screen and (max-width: 800px) {
+
+  .tablinks {
+
+  	font-family: sans-serif;
+  }
+
+  #about-me{
+  	font-family: sans-serif;
+  }
+  #para-2 {
+  	font-family: sans-serif;
+  }
+}
