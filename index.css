@@ -94,6 +94,10 @@ p {
   color: #000;
 }
 
+.footer a {
+  text-decoration: none;  
+}
+
 .tooltiptext {
   visibility: hidden;
   font-size: 12px;
@@ -109,6 +113,10 @@ p {
 }
 
 .fa.fa-linkedin:hover .tooltiptext {
+  visibility: visible;
+}
+
+.fa.fa-twitter:hover .tooltiptext {
   visibility: visible;
 }
 
