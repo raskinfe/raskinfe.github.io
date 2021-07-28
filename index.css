@@ -124,6 +124,28 @@ p {
   font-weight: 200;
 }
 
+#Posts img {
+
+  width: 65%;
+}
+
+#Publications img {
+
+  width: 65%;
+
+}
+
+.calendly-inline-widget {
+
+  width: 65%;
+  height: 630px;
+}
+
+content #Contact {
+
+  margin-left: 1rem;
+
+}
 
 
 
