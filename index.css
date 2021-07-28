@@ -189,5 +189,23 @@ content #Contact {
   #para-2 {
     font-family:  font-family: 'Inter var', 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica New", Helvetica, sans-serif;
   }
+
+  .calendly-inline-widget {
+
+    position: relative;
+    null: ;
+    width: 90%;
+  }
+
+  #Posts img {
+
+  width: 90%;
+}
+
+#Publications img {
+
+  width: 90%;
+
+}
   
 }
