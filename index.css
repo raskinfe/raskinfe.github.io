@@ -94,6 +94,10 @@ p {
   color: #000;
 }
 
+.footer a {
+  text-decoration: none;  
+}
+
 .tooltiptext {
   visibility: hidden;
   font-size: 12px;
