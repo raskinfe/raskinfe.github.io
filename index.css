@@ -112,6 +112,10 @@ p {
   visibility: visible;
 }
 
+.fa.fa-twitter:hover .tooltiptext {
+  visibility: visible;
+}
+
 #license {
   font-family: "Inter var", "Inter", -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, Ubuntu, "Helvetica New", Helvetica, sans-serif;
