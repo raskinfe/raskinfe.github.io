@@ -121,6 +121,12 @@ p {
   font-weight: 200;
 }
 
+#license i {
+
+  -webkit-transform:  scaleX(-1);
+  transform: scaleX(-1);
+}
+
 #Posts img {
   width: 65%;
 }
