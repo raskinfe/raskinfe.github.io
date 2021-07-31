@@ -60,6 +60,12 @@ img:hover {
   line-height: 1.5;
 }
 
+#about-me a {
+
+  color: #000;
+  font-weight: 200;
+}
+
 .tab-content {
   width: 90%;
   margin: 10%;
