@@ -1,23 +1,18 @@
-	function displayTab(evt, tabName) {
-  
-  var i, content, tabtags;
+const hamburger = document.querySelector('#header .hamburger');
+const mobile_menu  = document.querySelector('#header .nav-list ul');
+const header = document.querySelector('.header.container');
 
-  
-  content = document.getElementsByClassName("content");
-  for (i = 0; i < content.length; i++) {
-    content[i].style.display = "none";
-  }
+hamburger.addEventListener('click', () => {
+    hamburger.classList.toggle('active');
+    mobile_menu.classList.toggle('active');
+})
 
-  
-  tabtags = document.getElementsByClassName("tabtags");
-  for (i = 0; i < tabtags.length; i++) {
-    tabtags[i].className = tabtags[i].className.replace(" active", "");
-  }
+document.addEventListener('scroll', ()=>{
+    let scroll_position = window.scrollY;
+    if(scroll_position > 250) {
+        header.style.backgroundColor = "#29323c";
+    } else {
+        header.style.backgroundColor = 'transparent';
 
-  
-  document.getElementById(tabName).style.display = "block";
-  evt.currentTarget.className += " active";
-
-  
-  
-}
+    }
+})

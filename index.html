@@ -1,70 +1,247 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="google-site-verification" content="...">
-    <title>Kinfemichael | System Developer </title>
-    <script type="text/javascript" src="index.js"></script>
-    <link rel="stylesheet" type="text/css" href="index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  </head>
-  <body>
-    <div class="contents">
-      <div class="tabs">
-        <button class="tabtags" onclick="displayTab(event, 'About')" id="defaultOpen">About</button>
-        <button class="tabtags" onclick="displayTab(event, 'Posts')">Posts</button>
-        <button class="tabtags" onclick="displayTab(event, 'Publications')">Publications</button>
-        <button class="tabtags" onclick="displayTab(event, 'Contact')">Contact</button>
-      </div>
-      <div class="tab-content">
-        <div class="content" id="About">
-          <div class="col">
-            <div id="about-me">
-              <p>
-                <img src="somewhat_formal.jpg" id="me"> My name is Kinfemichael Desse. I am currently attending the Master of Engineering in <a href="https://www.th-deg.de/mcs-m-en">Mechatronics and Cyberphysical Systems</a> at <a href="https://www.th-deg.de/en"> Deggendorf Institute of Technology</a>, Germany. My interdisciplinary study covers modern simulation systems, cooperative and autonomous systems, innovative human-machine interfaces, and additive manufacturing processes. I completed my bachelor’s degree in <a href="https://www.ju.edu.et/jit/?q=academics/schools-departments/electrical-computer-engineering"> Electrical and Computer Engineering</a> at <a href="https://www.ju.edu.et/"> Jimma University</a>, Ethiopia. Through my studies and various practical activities, I have built up an in depth knowledge of software development, electrical engineering, computer engineering, human-machine interaction, IoT, cyber-physical systems, and mechatronics engineering.
-              </p>
-              <p>I am currently working as a working student in the tech department at <a href="https://www.compado.com/"> Compado GmbH</a> in Berlin. </p>
-              <p>In my professional career, I have had a chance to work in fast-growing and international organizations and enterprises on projects related to Fintech, HR tech, Travel, and Agritech.</p>
-              <p>As to myself, I am a self-starting individual who is always looking for a new challenge. I do not get discouraged by problems. Instead, I choose a solutions-oriented work approach by which I am making sure that I come up with results tailored to the respective project's specifications. Moreover, I love teaching and sharing my experience and skills with others. I believe that exchanging knowledge with friends and colleagues is a vital component of personal and professional growth. </p>
-              <p>In my half a decade old coding career, I have specialized in full-stack web development and cross-platform mobile app development. </p>
-              <p>Languages: Python, React, JS, Lua, C++, and MATLAB.</p>
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <!-- Header Section  -->
+    <section id="header">
+        <div class="header container">
+            <div class="nav-bar">
+                <div class="brand">
+                    <a href="#hero">
+                        <h1 class="section-title"><span>K</span>infemichael <span>D</span>esse</h1>
+                    </a>
+                </div>
+                <div class="nav-list">
+                    <div class="hamburger">
+                        <div class="bar"></div>
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="#" data-after="Home">Home</a>
+                        </li>
+                        <li>
+                            <a href="#projects" data-after="Services">Services</a>
+                        </li>
+                        <li>
+                            <!-- <a href="#projects" data-after="Projects">Projects</a> -->
+                        </li>
+                        <li>
+                            <a href="#about" data-after="About">About</a>
+                        </li>
+                        <li>
+                            <a href="#contact" data-after="Contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-          </div>
         </div>
-        <div class="content" id="Posts">
-          <img src="under-construction-gif-11.gif">
+    </section>
+    <!-- End of Header Section -->
+    <!-- hero section -->
+    <section id="hero">
+        <div class="hero container">
+            <div>
+                <h1>Hello, <span></span></h1>
+                <h1>My Name is <span></span></h1>
+                <h1>Kinfemichael <span></span></h1>
+                <a href="#projects" type="button" class="cta">Portfolio</a>
+            </div>
         </div>
-        <div class="content" id="Publications">
-          <img src="under-construction-gif-11.gif">
+    </section>
+    <!-- End of Hero section -->
+    <!--Service Section-->
+    <section id="services">
+        <div class="services container">
+            <div class="header">
+                <h1 class="section-title">Serv<span>i</span>ces</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                    Nihil quidem suscipit non quod voluptatum sint porro! 
+                    Voluptas nisi non maxime laboriosam facere, 
+                    voluptatibus ad quae quod perspiciatis, similique ullam pariatur!</p>
+            </div>
+            <div class="cards">
+                <div class="service-item">
+                    <div class="icon">
+                        <img src="https://img.icons8.com/bubbles/100/000000/services.png"/>
+                    </div>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                        Voluptas eos odit et adipisci! Aperiam corporis ut dolore adipisci architecto itaque! 
+                        Placeat natus voluptatibus tempore facilis provident deserunt at quas vero?</p>
+                </div>
+                <div class="service-item">
+                    <div class="icon">
+                        <img src="https://img.icons8.com/bubbles/100/000000/services.png"/>
+                    </div>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                        Voluptas eos odit et adipisci! Aperiam corporis ut dolore adipisci architecto itaque! 
+                        Placeat natus voluptatibus tempore facilis provident deserunt at quas vero?</p>
+                </div>
+                <div class="service-item">
+                    <div class="icon">
+                        <img src="https://img.icons8.com/bubbles/100/000000/services.png"/>
+                    </div>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                        Voluptas eos odit et adipisci! Aperiam corporis ut dolore adipisci architecto itaque! 
+                        Placeat natus voluptatibus tempore facilis provident deserunt at quas vero?</p>
+                </div>
+            </div>
         </div>
-        <div class="content" id="Contact">
-          <!-- Calendly inline widget begin -->
-          <div class="calendly-inline-widget" data-url="https://calendly.com/kinfemichaelalemu"></div>
-          <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-          <!-- Calendly inline widget end -->
+    </section>
+    <!--End of Service Section-->
+
+    <!-- Recent Projects Section -->
+    <section id="projects">
+        <div class="projects container">
+            <div class="projects-header">
+                <h1 class="section-title">Serv<span>i</span>ces</h1>
+            </div>
+            <div class="all-projects">
+                <div class="project-item">
+                    <div class="project-info">
+                        <h1>Mobile Application Development</h1>
+                        <h2>Coding is love</h2>
+                        <p>
+                            I strive to develop mobile solutions that invigorate client's 
+                            bussiness practices. 
+                        </p>
+                    </div>
+                    <div class="project-image">
+                        <img src="./img/img1.webp" alt="img">
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="project-info">
+                        <h1>Web Application Development</h1>
+                        <h2>Backend and Frontend Development</h2>
+                    </div>
+                    <div class="project-image">
+                        <img src="./img/img1.webp" alt="img">
+                    </div>
+                </div>
+                <!-- <div class="project-item">
+                    <div class="project-info">
+                        <h1>Project 3</h1>
+                        <h2>Coding is love</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Neque veniam vitae natus quod dolorum aut earum iure quo 
+                            dignissimos atque soluta magnam sed nostrum nemo laudantium, quibusdam nobis dolor culpa.</p>
+                    </div>
+                    <div class="project-image">
+                        <img src="./img/img1.webp" alt="img">
+                    </div>
+                </div> -->
+            </div>
         </div>
-      </div>
-    </div>
-    <div class="footer">
-      <a href="https://www.linkedin.com/in/kinfemichael-alemu-desse-857b7670/">
-        <i class="fa fa-linkedin" aria-hidden="true">
-          <span class="tooltiptext">Follow me on LinkedIn</span>
-        </i>
-      </a>
-      
-      <a href="#">
-        <i class="fa fa-twitter" aria-hidden="true">
-          <span class="tooltiptext">Follow me on twitter</span>
-        </i>
-        
-      </a>
-      <br>
-      <a id="license" href="LICENSE">
-        <i class="fa fa-copyright" aria-hidden="true"></i> Kinfemichael A. Desse 2021 </a>
-    </div>
-  </body>
-  <script type="text/javascript">
-    document.getElementById('defaultOpen').click();
-  </script>
+    </section>
+    <!-- End Recent Projects Section -->
+
+    <!-- About Me -->
+    <section id="about">
+        <div class="about container">
+            <div class="col-left">
+                <div class="about-img">
+                    <img src="./img/somewhat_formal.jpg" alt="img">
+                </div>
+            </div>
+            <div class="col-right">
+                <h1 class="section-title">About <span>Me</span></h1>
+                <h2>System Developer</h2>
+                <p>
+                     My name is Kinfemichael Desse. I am currently attending the Master of Engineering in <a href="https://www.th-deg.de/mcs-m-en">Mechatronics and Cyberphysical Systems</a> at <a href="https://www.th-deg.de/en"> Deggendorf Institute of Technology</a>, Germany. My interdisciplinary study covers modern simulation systems, cooperative and autonomous systems, innovative human-machine interfaces, and additive manufacturing processes. I completed my bachelor’s degree in <a href="https://www.ju.edu.et/jit/?q=academics/schools-departments/electrical-computer-engineering"> Electrical and Computer Engineering</a> at <a href="https://www.ju.edu.et/"> Jimma University</a>, Ethiopia. Through my studies and various practical activities, I have built up an in depth knowledge of software development, electrical engineering, computer engineering, human-machine interaction, IoT, cyber-physical systems, and mechatronics engineering.
+                  </p>
+                  <p>I am currently working as a working student in the tech department at <a href="https://www.compado.com/"> Compado GmbH</a> in Berlin. </p>
+                  <p>In my professional career, I have had a chance to work in fast-growing and international organizations and enterprises on projects related to Fintech, HR tech, Travel, and Agritech.</p>
+                  <p>As to myself, I am a self-starting individual who is always looking for a new challenge. I do not get discouraged by problems. Instead, I choose a solutions-oriented work approach by which I am making sure that I come up with results tailored to the respective project's specifications. Moreover, I love teaching and sharing my experience and skills with others. I believe that exchanging knowledge with friends and colleagues is a vital component of personal and professional growth. </p>
+                  <p>In my coding career, I have specialized in full-stack web development and cross-platform mobile app development. </p>
+                  <p>Languages: Python, PHP, React, JavaScript, Lua, C++, and MATLAB.</p>
+                <a href="#" type="button" class="cta">Download Resume</a>
+            </div>
+        </div>
+    </section>
+    <!-- End of About Me -->
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="contact container">
+            <div>
+                <h1 class="section-title">Contact <span>Info</span></h1>
+            </div>
+            <div class="contact-items">
+                <div class="contact-item">
+                    <div class="icon">
+                        <img src="https://img.icons8.com/bubbles/100/000000/phone.png"/>
+                    </div>
+                    <div class="contact-info">
+                        <h1>Phone</h1>
+                        <h2>+49 176 95 83 62 80</h2>
+                        <h2>+49 176 38 92 00 51</h2>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="icon">
+                        <img src="https://img.icons8.com/bubbles/100/000000/new-post.png"/>
+                    </div>
+                    <div class="contact-info">
+                        <h1>Email</h1>
+                        <h2>kinfemichaelalemu@gmail.com</h2>
+                        <h2>kinmi2005@outlook.com</h2>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="icon">
+                        <img src="https://img.icons8.com/bubbles/100/000000/map-marker.png"/>
+                    </div>
+                    <div class="contact-info">
+                        <h1>Address</h1>
+                        <h2>Jahnstr., 10967, Berlin</h2>
+                        <h2>Germany</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of contact section -->
+
+    <!-- footer -->
+    <section id="footer">
+        <div class="footer container">
+            <div class="section-title">
+                <h1 class="section-title"><span>K</span>infemichael <span>D</span>esse</h1>
+            </div>
+            <div class="footer-items">
+                <a href="https://www.linkedin.com/in/kinfemichael-alemu-desse-857b7670/">
+                    <i class="fa fa-linkedin" aria-hidden="true">
+                    <span class="tooltiptext">Follow me on LinkedIn</span>
+                    </i>
+                </a>
+                
+                <a href="#">
+                    <i class="fa fa-twitter" aria-hidden="true">
+                    <span class="tooltiptext">Follow me on twitter</span>
+                    </i>
+                    
+                </a>
+                <br>
+            </div>
+            <div>
+                <a id="license" href="LICENSE">
+                    <i class="fa fa-copyright" aria-hidden="true"></i> Kinfemichael A. Desse 2021 
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- end of footer -->
+
+    <script src="./index.js"></script>
+</body>
 </html>
