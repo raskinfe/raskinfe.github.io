@@ -507,7 +507,7 @@ animation-delay: 1s;
     top: 19px;
     height: 98%;
     width: 98%;
-    border: 7px solid blue;
+    border: 7px solid '#749cb5';
     z-index: -1;
 }
 
